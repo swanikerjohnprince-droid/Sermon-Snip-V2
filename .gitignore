@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.log
+*.bak
+.venv/
+venv/
+.venv-verthor/
+models/
+cache/
+clips/
+gpu_report.txt
+sermon_snip_config.json
+*.wav
+local_tools/

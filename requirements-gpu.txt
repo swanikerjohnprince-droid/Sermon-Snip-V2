@@ -1,0 +1,5 @@
+# NVIDIA runtime libraries for GPU transcription with faster-whisper (about 1.3 GB download).
+# Installed into this app's own environment: no CUDA Toolkit / cuDNN installer needed.
+-r requirements.txt
+nvidia-cublas-cu12>=12.4,<13        # cublas64_12.dll, cublasLt64_12.dll  (CTranslate2 needs the CUDA *12* build)
+nvidia-cudnn-cu12==9.10.2.21         # must equal the cuDNN bundled in ctranslate2 4.8.3 (cudnn64_9.dll 9.10.2.21)

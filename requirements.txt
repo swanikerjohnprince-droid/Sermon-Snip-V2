@@ -1,0 +1,5 @@
+# Core. ctranslate2 is pinned because each release bundles one specific cuDNN build; the
+# NVIDIA wheels in requirements-gpu.txt are pinned to match it (see GPU_SETUP.md).
+faster-whisper>=1.2.1,<1.3
+ctranslate2==4.8.3
+numpy>=1.26
